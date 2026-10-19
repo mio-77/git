@@ -1,0 +1,24 @@
+# =================肌电采集项目 忽略规则=================
+# 原始数据集、压缩包（重点！不要上传肌电大数据）
+*.rar
+*.zip
+*.7z
+*.csv
+*.bin
+*.mat
+*.edf
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# conda虚拟环境
+.conda/
+env/
+venv/
+
+# VS Code本地配置
+.vscode/
+*.log
